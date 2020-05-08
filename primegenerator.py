@@ -10,5 +10,6 @@ while T!=0:
         else:
             break
     p = [x for x in g if (x not in marked) and x!=1]
-    print("Prime Numbers are", p)
+    for i in p:
+        print(i, end = " ")
     T-=1
