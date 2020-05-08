@@ -12,4 +12,5 @@ while T!=0:
     p = [x for x in g if (x not in marked) and x!=1]
     for i in p:
         print(i, end = " ")
+    print()
     T-=1
