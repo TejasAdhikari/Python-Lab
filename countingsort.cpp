@@ -12,7 +12,7 @@ int main(){
     for(int m=1; m<10; m++){
         count[m]+=count[m-1];
     }
-    for(int j=0; j<len; j++){
+    for(int j=len-1; j>0; j--){
         store[count[a[j]]-1]=a[j];
         count[a[j]]--;
     }
